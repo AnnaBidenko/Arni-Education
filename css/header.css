@@ -137,7 +137,58 @@
 	box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.25);
 	color: #FFFFFF;
 }
-.inner_button button:activesvg *{
+.inner_button button:active svg *{
 	fill: #FFFFFF;
 	transition: 0.3s;
+}
+
+.header__form{
+	display: flex;
+	justify-content: center;
+	padding: 40px 0px;
+}
+.header__form__title{
+	width: 552px;
+}
+.header__form__title h2{
+	font-family: 'Mont', sans-serif;
+	font-size: 46px;
+	font-weight: 300;
+	line-height: 56px;
+	color: #F0F0F0;
+}
+.header__form__title h3{
+	font-family: 'Mont', sans-serif;
+	font-size: 46px;
+	font-weight: 300;
+	line-height: 56px;
+	color: #101010;
+}
+.header__form__inner{}
+
+
+.header__form__inner button{
+	width: 345px;
+	height: 55px;
+	background: #101010;
+	border: 5px solid #FFFFFF;
+	box-shadow: 3px 10px 18px rgba(0, 0, 0, 0.1);
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.header__form__inner button:hover{
+	background: #101010;
+	border: 5px solid #DCAD55;
+	box-shadow: 3px 10px 18px rgba(0, 0, 0, 0.25);
+	transition: 0.3s;
+}
+.header__form__inner button:active{
+	background: #8C6E34;
+	border: 5px solid #DCAD55;
+	box-shadow: 3px 10px 18px rgba(0, 0, 0, 0.25);
 }
