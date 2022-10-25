@@ -42,13 +42,15 @@
 
 .header__title{
 	display: flex;
-	padding-top: 30px;
+	padding-top: 40px;
 }
 .header__title__img{
 	width: 900px;
+	border: 4px solid #FFFFFF;
 }
 .header__title__inner{
 	width: 609px;
+	margin-bottom: 70px;
 }
 .header__title__inner h1{
 	font-family: 'Mont', sans-serif;
@@ -95,11 +97,14 @@
 	padding-left: 20px;
 }
 .inner_button{
-	margin: 36px 0px;
+	margin-top: 40px;
 }
 .inner_button button{
 	width: 420px;
 	height: 66px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: #F0F0F0;
 	border: 5px solid #F0F0F0;
 	box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.25);
@@ -112,6 +117,27 @@
 	letter-spacing: 0.03em;
 	color: #B29257;
 }
-.inner_button button:hover{}
-.inner_button button:active{}
-.inner_button p{}
+.inner_button button p{
+	width: 315px;
+}
+.inner_button button:hover{
+	background: #DCAD55;
+	border: 5px solid #DCAD55;
+	box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.25);
+	color: #FFFFFF;
+	transition: 0.3s;
+}
+.inner_button button:hover svg *{
+	fill: #FFFFFF;
+	transition: 0.3s;
+}
+.inner_button button:active{
+	background: #8C6E34;
+	border: 5px solid #8C6E34;
+	box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.25);
+	color: #FFFFFF;
+}
+.inner_button button:activesvg *{
+	fill: #FFFFFF;
+	transition: 0.3s;
+}
