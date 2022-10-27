@@ -38,23 +38,101 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /*-----------------------------------------------------*/
-@import url('http://fonts.cdnfonts.com/css/mont');
-                
-body{}
+body{
+	background: linear-gradient(113.21deg, #1B1B1B 19.35%, #0C0C0C 76.56%);
+}
 
 @media (max-width: 1200px){
 	.container{
 		max-width: 970px;
 	}
+	.study__title::before{
+	content: '';
+	display: none;
+	}
+	.study__title::after{
+	content: '';
+	display: none;
+	}
 }
 @media (max-width: 992px){
 	.container{
-		max-width: 750px;
+		max-width: 960px;
 	}
 }
-
-.wrapper{
-	height: 100%;
-	display: flex;
-	flex-direction: column;
+@media (max-width: 768px){
+	.container{
+		max-width: 720px;
+	}
+}
+.about{
+	padding-bottom: 50px;
+}
+.about__img{
+    width: 100%;
+}
+.about__title{
+	padding-top: 30px;
+	padding-left: 10px;
+}
+.about__title h2{
+	font-family: "ArticaPro-Bold";
+	font-size: 50px;
+	line-height: 59px;
+	text-transform: uppercase;
+	color: #DCAD55;
+}
+.about__title__line{
+	width: 50%;
+    height: 3px;
+    background-color: #ffffff;
+    display: none;
+}
+.about__text p{
+	font-family: "Opensans-Light";
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+.study .container{
+	padding: 40px 0px;
+}
+.study__title{
+	position: relative;
+}
+.study__title::before{
+	content: '';
+	background: #FFFFFF;
+	width: 13%;
+	height: 3px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+.study__title h2{
+	font-family: "ArticaPro-Bold";
+	font-size: 50px;
+	line-height: 59px;
+	text-transform: uppercase;
+	color: #DCAD55;
+	text-align: center;
+	padding: 0px 10px;
+}
+.study__title::after{
+	content: '';
+	background: #FFFFFF;
+	width: 13%;
+	height: 3px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+.study__text p{
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 26px;
+	color: #FFFFFF;
+	padding: 12px;
 }
