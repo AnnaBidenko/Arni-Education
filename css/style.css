@@ -95,6 +95,7 @@ body{
 	line-height: 28px;
 	color: #FFFFFF;
 }
+
 .study .container{
 	padding: 40px 0px;
 }
@@ -104,7 +105,7 @@ body{
 .study__title::before{
 	content: '';
 	background: #FFFFFF;
-	width: 13%;
+	width: 18%;
 	height: 3px;
 	position: absolute;
 	top: 30px;
@@ -116,13 +117,12 @@ body{
 	line-height: 59px;
 	text-transform: uppercase;
 	color: #DCAD55;
-	text-align: center;
 	padding: 0px 10px;
 }
 .study__title::after{
 	content: '';
 	background: #FFFFFF;
-	width: 13%;
+	width: 18%;
 	height: 3px;
 	position: absolute;
 	top: 30px;
@@ -135,4 +135,239 @@ body{
 	line-height: 26px;
 	color: #FFFFFF;
 	padding: 12px;
+}
+.study__table{
+	margin: 0 auto;
+	padding: 0px 20px 50px 20px;
+}
+.study__table__column.left,
+.study__table__column.center,
+.study__table__column .right{
+	margin-right: 55px;
+}
+.study__table__column .right{
+	margin-top: -32px;
+}
+.col_element{
+	width: 280px;
+	border: 3px solid #DCAD55;
+	margin-bottom: 18px;
+	padding: 20px;
+}
+.col_element_text{
+	font-family: 'Roboto';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21px;
+	color: #FFFFFF;
+	padding-left: 18px;
+}
+
+.course{
+	padding: 50px 0px;
+	background-color: black;
+	transform: skewY(3.6deg);
+}
+.course__title::before{
+	content: '';
+	background: #FFFFFF;
+	width: 20%;
+	height: 3px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+.course__title{
+	position: relative;
+	font-family: "ArticaPro-Bold";
+	font-size: 50px;
+	line-height: 59px;
+	text-transform: uppercase;
+	color: #DCAD55;
+	padding: 0px 10px;
+	transform: skewY(-3.6deg);
+}
+.course__title::after{
+	content: '';
+	background: #FFFFFF;
+	width: 20%;
+	height: 3px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+.course .container{
+	transform: skewY(-3.6deg);
+	margin-top: 50px;
+}
+.course__top a:hover{
+	text-decoration: none;
+}
+.course__top .button{
+	font-family: "OpenSans-Bold";
+	font-size: 16px;
+	line-height: 22px;
+	color: #DCAD55;
+	width: 215px;
+	height: 44px;
+	border: 4px solid #DCAD55;
+	filter: drop-shadow(5px 10px 18px rgba(0, 0, 0, 0.25));
+	margin-right: 30px;
+	margin-bottom: 25px;
+}
+.course__top .button p{
+	padding-top: 10px;
+}
+.course__top .button img{
+	margin-left: 10px;
+}
+.course__text{
+	font-family: "OpenSans-Bold";
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #FFFFFF;
+	padding: 30px 0px;
+}
+.course__block_inner{
+	height: fit-content;
+	width: 264px;
+	background: #1B1B1B;
+	border: 4px solid #F5F5F5;
+	box-shadow: 7px 8px 20px rgba(0, 0, 0, 0.25);
+	margin-left: 30px;
+	margin-bottom: 25px;
+}
+.inner_title{
+	background: #F5F5F5;
+	font-family: "ArticaPro-Bold";
+	font-size: 22px;
+	line-height: 26px;
+	color: #1E2C34;
+	padding: 10px 0px;
+}
+.inner_content{
+	padding: 20px;
+}
+.inner_content__text{
+	font-family: "Opensans-Light";
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+.text_1{
+	padding: 14px 0;
+}
+.inner_content__text p{
+	padding-left: 18px;
+}
+.inner_content__button{
+	margin-top: 30px;
+	width: 214px;
+	height: 45px;
+	background: #DCAD55;
+	border: 3px solid #FFFFFF;
+	box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.25);
+	font-family: "Opensans-Light";
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	color: #0B0B0B;
+}
+.inner_text{
+	font-family: "Opensans-Light";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.teacher{
+	padding: 50px 0px;
+}
+.teacher__title::before{
+	content: '';
+	background: #FFFFFF;
+	width: 20%;
+	height: 3px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+.teacher__title{
+	position: relative;
+	font-family: "ArticaPro-Bold";
+	font-size: 50px;
+	line-height: 59px;
+	text-transform: uppercase;
+	color: #DCAD55;
+	padding: 0px 10px;
+}
+.teacher__title::after{
+	content: '';
+	background: #FFFFFF;
+	width: 20%;
+	height: 3px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+.teacher__table{
+	padding: 50px 0;
+}
+.teacher__table__column{
+	padding-right: 40px;
+}
+.col_bg_2{
+	z-index: 3;
+	max-width: 230px;
+	height: 8px;
+	background: rgba(255, 255, 255, 0.22);
+	margin: 0 auto;
+}
+.col_bg_1{
+	z-index: 2;
+	max-width: 272px;
+	height: 8px;
+	background: #E3D0AB;
+	margin: 0 auto;
+}
+.col_bg{
+	z-index: 1;
+	max-width: 300px;
+	padding: 5px 3px;
+	background: #FFFFFF;
+	border: border: 3px solid #FFFFFF;
+	box-shadow: 6px 13px 27px rgba(0, 0, 0, 0.25);
+}
+.col_bg__text{
+	font-family: "Opensans-Light";
+	color: #101010;
+	font-size: 16px;
+	line-height: 22px;
+	padding: 20px;
+}
+.col_bg__text h3{
+	font-family: "OpenSans-Bold";
+}
+.col_bg__text span{
+	font-family: "OpenSans-Bold";
+}
+
+.info{
+	padding-top: 20px;
+	padding-left: 50px;
+}
+.info_element{
+	max-width: 590px;
+	margin-bottom: 40px;
+}
+.info_element__text{
+	font-family: "Opensans-Light";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	padding: 10px 0px 0px 40px;
 }
