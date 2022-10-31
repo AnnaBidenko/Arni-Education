@@ -1,6 +1,5 @@
 footer{
-	background: #191919;
-	padding-top: 50px;
+	background: url('../img/Background_footer.svg') 0 0/cover no-repeat;
 }
 .footer__title{
 	font-family: "ArticaPro-Bold";
@@ -8,6 +7,7 @@ footer{
 	line-height: 43px;
 	text-transform: uppercase;
 	color: #DCAD55;
+	padding-top: 200px;
 }
 .footer__item{
 	padding: 50px 12px;
