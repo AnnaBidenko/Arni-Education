@@ -1,4 +1,75 @@
-@media (max-width: 360px){
+@media (max-width: 992px) {
+	.header__head .media_nav{
+        display: block;
+    }
+	.stock_bg .stock_bg__photo{
+		max-width: 340px;
+		left: -30px;
+	}
+	.stock_bg .stock_bg__text{
+		max-width: 380px;
+		padding: 0px 8px;
+	}
+	.stock__content .stock_bg_2{
+		max-width: 570px;
+	}
+	.stock__content .stock_bg_1{
+		max-width: 650px;
+	}
+	.el_title .el_title__title::after{
+		width: 50%;
+	}
+	.footer__item .footer__item__left{
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.stock .container{
+		padding: 0;
+	}
+	.stock_bg .stock_bg__photo{
+		left: -230px;
+	}
+	.stock__content .stock_bg_2{
+		max-width: 420px;
+	}
+	.stock__content .stock_bg_1{
+		max-width: 480px;
+	}
+	.opinion .opinion__title::before{
+		width: 10%;
+	}
+	.opinion .opinion__title::after{
+		width: 10%;
+	}
+}
+
+@media (max-width: 730px) {
+	.el_title .el_title__title::after{
+		width: 30%;
+	}
+	.buy_course__el .el_button a:nth-child(1) {
+	    margin-left: 70px;
+	}
+}
+
+@media (max-width: 638px) {
+	.el_title .el_title__title::after{
+		display: none;
+	}
+	.opinion .opinion__title::before{
+		display: none;
+	}
+	.opinion .opinion__title::after{
+		display: none;
+	}
+}
+
+@media (max-width: 360px) {
+	.header__head .media_nav{
+        display: none;
+    }
 	.stock_bg .stock_bg__photo{
 		display: none;
 	}
@@ -15,5 +86,44 @@
 	}
 	.stock__content .stock_bg_1{
 		max-width: 300px;
+	}
+	.el_title .el_title__img{
+		width: 180px;
+		margin-right: -90px;
+	}
+	.footer .footer__title{
+		text-align: center;
+	}
+	.footer__item__left button{
+		margin-left: 30px;
+		width: 345px;
+		height: 55px;
+		border: 3px solid #FFFFFF;
+		box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.1);
+		color: #000000;
+	}
+	.footer__item__left button p{
+		font-size: 22px;
+		line-height: 27px;
+		padding-left: 0;
+		color: #000000;
+	}
+	.footer__item__left .network{
+		padding-left: 50px;
+	}
+	.footer__item__left p{
+		font-size: 12px;
+		line-height: 14px;
+		padding-left: 50px;
+	}
+	.footer__item .footer__item__left{
+		padding-left: 70px;
+		margin-bottom: 40px;
+	}
+	.footer__item__right .contact{
+		margin-bottom: 39px;
+	}
+	.contact .contact_img{
+		background-color: #DCAD55;
 	}
 }

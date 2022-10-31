@@ -1,31 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500&display=swap');
-.footer{
-	background: #192a42;
-	padding: 40px 0px;
+footer{
+	background: #191919;
+	padding-top: 50px;
 }
-.footer .container{
-	max-width: 970px;
-	margin: 0px auto;
+.footer__title{
+	font-family: "ArticaPro-Bold";
+	font-size: 37px;
+	line-height: 43px;
+	text-transform: uppercase;
+	color: #DCAD55;
 }
-.footer_menu_list{
-	display: flex;
-	justify-content: center;
+.footer__item{
+	padding: 50px 12px;
 }
-.footer_menu_list li a{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-	font-size: 14px;
-	color: #00c2cb;
-	line-height: 28px;
-	margin: 20px;
-	cursor: pointer;
+.footer__item__left{
+	margin-right: 100px;
+}
+.footer__item__left button{
+	font-family: "MontserratAlternates-Bold";
+	font-size: 16px;
+	line-height: 20px;
+	color: #101010;
+	width: 268px;
+	height: 45px;
+	background: #DCAD55;
+	box-shadow: 0px 6px 22px rgba(255, 255, 255, 0.36);
+}
+.network{
+	margin: 35px 0 15px 0;
+}
+.network a:first-child{
+	margin-right: 15px;
+}
+.footer__item__left p{
+	font-family: "MontserratAlternates-SemiBold";
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+}
+.footer__item__right{
+	padding-top: 5px;
+}
+.contact{
+	font-family: "MontserratAlternates-SemiBold";
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	margin-bottom: 64px;
+}
+.contact span{
+	padding-left: 10px;
+}
+.contact a{
+	padding-left: 30px;
+}
+.contact a:hover{
 	text-decoration: none;
 }
-.footer_text p{
-	font-size: 12px;
-	font-weight: 500;
-	font-family: 'Montserrat', sans-serif;
-	color: #f2f2f2;
-	line-height: 28px;
-	text-align: center;
+.contact_img{
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.25);
+}
+.contact_img img{
+	padding: 11px 0 0 8px;
 }

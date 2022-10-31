@@ -55,42 +55,7 @@ body{
 		display: none;
 	}
 }
-@media (max-width: 992px){
-	.container{
-		max-width: 960px;
-	}
-	.stock_bg .stock_bg__photo{
-		max-width: 340px;
-		left: -30px;
-	}
-	.stock_bg .stock_bg__text{
-		max-width: 380px;
-		padding: 0px 8px;
-	}
-	.stock__content .stock_bg_2{
-		max-width: 570px;
-	}
-	.stock__content .stock_bg_1{
-		max-width: 650px;
-	}
-}
-@media (max-width: 768px){
-	.container{
-		max-width: 720px;
-	}
-	.stock .container{
-		padding: 0;
-	}
-	.stock_bg .stock_bg__photo{
-		left: -230px;
-	}
-	.stock__content .stock_bg_2{
-		max-width: 420px;
-	}
-	.stock__content .stock_bg_1{
-		max-width: 480px;
-	}
-}
+
 .about{
 	padding-bottom: 50px;
 }
@@ -237,9 +202,23 @@ body{
 	width: 215px;
 	height: 44px;
 	border: 4px solid #DCAD55;
+	box-shadow: 0px 6px 22px rgba(255, 255, 255, 0.36);
 	filter: drop-shadow(5px 10px 18px rgba(0, 0, 0, 0.25));
 	margin-right: 30px;
 	margin-bottom: 25px;
+}
+.course__top .button:hover{
+	background: #DCAD55;
+	border: 4px solid #DCAD55;
+	box-shadow: 0px 6px 22px rgba(255, 255, 255, 0.36);
+	color: #0B0B0B;
+	transition: 0.3s;
+}
+.course__top .button:active{
+	background: #DCAD55;
+	border: 4px solid #DCAD55;
+	box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.25);
+	color: #0B0B0B;
 }
 .course__top .button p{
 	padding-top: 10px;
@@ -275,6 +254,9 @@ body{
 .inner_content{
 	padding: 20px;
 }
+.inner_content a:hover{
+	text-decoration: none;
+}
 .inner_content__text{
 	font-family: "Opensans-Light";
 	font-weight: 400;
@@ -300,6 +282,19 @@ body{
 	font-size: 16px;
 	line-height: 22px;
 	color: #0B0B0B;
+	cursor: pointer;
+}
+.inner_content__button:hover{
+	background: #F7D18C;
+	border: 3px solid #FFFFFF;
+	box-shadow: 0px 6px 22px rgba(255, 255, 255, 0.36);
+	transition: 0.3s;
+}
+.inner_content__button:active{
+	background: #8C6E34;
+	border: 3px solid #DCAD55;
+	box-shadow: 0px 6px 22px rgba(255, 255, 255, 0.36);
+	color: #FFFFFF;
 }
 .inner_text{
 	font-family: "Opensans-Light";
@@ -438,21 +433,18 @@ body{
 	padding: 40px 0px;
 }
 .stock_bg_2{
-	z-index: 4;
 	max-width: 810px;
 	height: 8px;
 	background: rgba(255, 255, 255, 0.22);
 	margin: 0 auto;
 }
 .stock_bg_1{
-	z-index: 3;
 	max-width: 943px;
 	height: 8px;
 	background: #E3D0AB;
 	margin: 0 auto;
 }
 .stock_bg{
-	z-index: 2;
 	max-width: 1030px;
 	min-height: 402px;
 	padding: 0 40px;
@@ -488,4 +480,225 @@ body{
 	font-size: 18px;
 	line-height: 25px;
 	font-weight: 400;
+}
+
+.buy_course{
+	padding: 30px 0;
+}
+.buy_course__el{
+	margin-top: 147px;
+}
+.buy_course__el:nth-child(3){
+    margin-bottom: 147px;
+}
+.el_title__img{
+	width: 205px;
+	margin-right: -45px;
+}
+.el_title__title{
+	font-family: "ArticaPro-Bold";
+	font-size: 45px;
+	line-height: 53px;
+	text-transform: uppercase;
+	color: #DCAD55;
+	position: relative;
+}
+.el_title__title h2{
+	margin-left: -60px;
+}
+.el_title__title::after{
+	content: '';
+	background: #FFFFFF;
+	width: 70%;
+	height: 3px;
+	position: absolute;
+	top: 85px;
+	right: 0;
+}
+.buy_course a:hover {
+    text-decoration: none;
+}
+.el_button{
+	padding-top: 40px;
+}
+.el_button a:nth-child(1) {
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+.el_button .button{
+	width: 322px;
+	height: 80px;
+	border: 3px solid #DCAD55;
+	position: relative;
+}
+.button_text{
+	font-family: "ArticaPro-Bold";
+	font-size: 22px;
+	line-height: 26px;
+	color: #FFFFFF;
+	padding: 0 20px;
+	text-align: center;
+}
+.button_price span{
+	font-size: 32px;
+}
+.button_price{
+	font-family: "OpenSans-Bold";
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #101010;
+	width: 95px;
+	background: #DCAD55;
+	padding: 15px 5px 0 5px;
+}
+.button .member{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 39px;
+	height: 22px;
+	background: #DCAD55;
+	color: #101010;
+	padding: 0 5px;
+}
+
+
+
+.opinion{
+	padding: 50px 0px;
+}
+.opinion__title::before{
+	content: '';
+	background: #FFFFFF;
+	width: 20%;
+	height: 3px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+.opinion__title{
+	position: relative;
+	font-family: "ArticaPro-Bold";
+	font-size: 50px;
+	line-height: 59px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.opinion__title::after{
+	content: '';
+	background: #FFFFFF;
+	width: 20%;
+	height: 3px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+
+
+
+.opinion__button{
+	padding: 50px 0;
+}
+.opinion__button a:hover{
+	text-decoration: none;
+}
+.opinion__button .button{
+	font-family: "OpenSans-Bold";
+	font-size: 16px;
+	line-height: 20px;
+	color: #101010;
+	width: 360px;
+	height: 45px;
+	background: #DCAD55;
+	box-shadow: 0px 6px 22px rgba(255, 255, 255, 0.36);
+	padding-top: 12px;
+}
+.opinion__button .button:hover{
+	background: #F7D18C;
+	box-shadow: 0px 6px 22px rgba(255, 255, 255, 0.36);
+	transition: 0.3s;
+}
+
+.question{
+	padding: 50px 0px;
+}
+.question__title{
+	font-family: "ArticaPro-Bold";
+	font-size: 37px;
+	line-height: 43px;
+	text-transform: uppercase;
+	color: #DCAD55;
+}
+.question__text{
+	font-family: 'MontserratAlternates-Light';
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.question_flex{
+	padding-bottom: 50px;
+}
+.question__form input{
+	width: 345px;
+	height: 55px;
+	background: #F0F0F0;
+	border: 3px solid #C4C4C4;
+	box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.05);
+	font-family: 'MontserratAlternates-Light';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #8C8C8C;
+	padding-left: 10px;
+}
+.question__form input::placeholder {
+    padding-left: 50px;
+    color: rgba(140, 140, 140, 1);
+}
+
+.question__form input:nth-child(1)::placeholder{
+    background: url("../img/Vector_1.svg") no-repeat 10px;
+}
+
+.question__form input:nth-child(2)::placeholder{
+    background: url("../img/Vector_3.svg") no-repeat 10px;
+}
+.question__form input:nth-child(3)::placeholder {
+    background: url("../img/Vector_4.svg") no-repeat 10px;
+}
+.question__form button{
+	font-family: "MontserratAlternates-Bold";
+	font-size: 16px;
+	line-height: 20px;
+	color: #101010;
+	width: 345px;
+	height: 45px;
+	background: #DCAD55;
+	box-shadow: 0px 6px 22px rgba(255, 255, 255, 0.36);
+}
+.question__form button a{
+	color: #101010;
+}
+.question__form button a:hover{
+	text-decoration: none;
+	color: #101010;
+}
+.question__or{
+	font-family: "MontserratAlternates-Bold";
+	font-size: 32px;
+	line-height: 39px;
+	color: #E1E1E1;
+	padding: 0 70px;
+}
+.question__button button{
+	font-family: "MontserratAlternates-Bold";
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	width: 345px;
+	height: 45px;
+	background: #784F99;
+	box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.1);
 }
