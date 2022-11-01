@@ -1,3 +1,6 @@
+.bg_top{
+	background: url('../img/bg_top.svg') 0 0/cover no-repeat
+}
 .header{
 	width: 100%;
 	background: url('../img/Background_1.svg') 0 0/cover no-repeat;

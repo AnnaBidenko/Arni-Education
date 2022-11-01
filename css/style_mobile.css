@@ -169,6 +169,40 @@
     .header .menu_list li a:hover{
 		color: #FFFFFF!important;
 	}
+	.header__title .header__title__inner h1{
+		display: none;
+	}
+	.header__title .header__title__inner h2{
+		display: none;
+	}
+	.header__title .header__title__inner h3{
+		display: none;
+	}
+	.header__title .header__title__inner ul{
+		display: none;
+	}
+	.header__title img{
+		display: none;
+	}
+	.header .header__title{
+		background: url('../img/FamilyGroup.png') 50%/cover no-repeat;
+	}
+	.header__title__inner .inner_button{
+		max-width: 316px;
+		height: 89px;
+		border: 5px solid #B09157;
+		margin-top: 360px;
+	}
+	.inner_button svg{
+		margin-right: 24px;
+	}
+	.study__table__column .col_element{
+		border: none;
+	}
+	.study__table__column.left,
+	.study__table__column.center{
+		margin-right: 0;
+	}
 	.stock_bg .stock_bg__photo{
 		display: none;
 	}
