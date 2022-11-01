@@ -1,3 +1,31 @@
+@media (max-width: 1400px){
+	.el_title .el_title__title::after{
+		width: 44%;
+	}
+}
+
+@media (max-width: 1200px){
+	.container{
+		max-width: 970px;
+	}
+	.study__title::before{
+		content: '';
+		display: none;
+	}
+	.study__title::after{
+		content: '';
+		display: none;
+	}
+	.opinion .opinion__title::before{
+		content: '';
+		display: none;
+	}
+	.opinion .opinion__title::after{
+		content: '';
+		display: none;
+	}
+}
+
 @media (max-width: 992px) {
 	.header__head .media_nav{
         display: block;
@@ -17,7 +45,13 @@
 		max-width: 650px;
 	}
 	.el_title .el_title__title::after{
-		width: 50%;
+		width: 40%;
+	}
+	.opinion .bx-wrapper .bx-prev{
+	    left: 45%;
+	}
+	.opinion .bx-wrapper .bx-next{
+	    right: 45%;
 	}
  	.footer__item__right{
 		margin-top: 40px;
@@ -73,6 +107,13 @@
 	.opinion .opinion__title::after{
 		width: 10%;
 	}
+	.opinion .bx-wrapper .bx-prev{
+	    left: 44%;
+	}
+
+	.opinion .bx-wrapper .bx-next{
+	    right: 44%;
+	}
 }
 
 @media (max-width: 730px) {
@@ -88,11 +129,30 @@
 	.el_title .el_title__title::after{
 		display: none;
 	}
+	.course .course__title::before{
+		display: none;
+	}
+	.course .course__title::after{
+		display: none;
+	}
+	.teacher .teacher__title::before{
+		display: none;
+	}
+	.teacher .teacher__title::after{
+		display: none;
+	}
 	.opinion .opinion__title::before{
 		display: none;
 	}
 	.opinion .opinion__title::after{
 		display: none;
+	}
+	.opinion .bx-wrapper .bx-prev{
+	    left: 42%;
+	}
+
+	.opinion .bx-wrapper .bx-next{
+	    right: 42%;
 	}
 }
 
@@ -123,6 +183,12 @@
 	.el_title .el_title__img{
 		width: 180px;
 		margin-right: -90px;
+	}
+	.opinion .bx-wrapper .bx-prev{
+	    left: 38%;
+	}
+	.opinion .bx-wrapper .bx-next{
+	    right: 38%;
 	}
 	.footer__item__left{
 		margin-left: 26px;
