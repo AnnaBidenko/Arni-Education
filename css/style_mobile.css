@@ -45,7 +45,7 @@
 		max-width: 650px;
 	}
 	.el_title .el_title__title::after{
-		width: 40%;
+		display: none;
 	}
 	.opinion .bx-wrapper .bx-prev{
 	    left: 45%;
@@ -126,9 +126,6 @@
 }
 
 @media (max-width: 638px) {
-	.el_title .el_title__title::after{
-		display: none;
-	}
 	.course .course__title::before{
 		display: none;
 	}
@@ -154,6 +151,15 @@
 	.opinion .bx-wrapper .bx-next{
 	    right: 42%;
 	}
+}
+
+@media (max-width: 465px) {
+	.el_title .el_title__title{
+		font-size: 38px;
+	}
+	.el_title .el_title__title h2{
+	margin-left: -55px;
+}
 }
 
 @media (max-width: 360px) {

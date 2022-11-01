@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     $('.opinion__slider').bxSlider({
         auto: true,
         controls: true,

@@ -44,19 +44,6 @@ body{
 .wrapper{
 	background: url('../img/path.png') 0 0 repeat;
 }
-@media (max-width: 1200px){
-	.container{
-		max-width: 970px;
-	}
-	.study__title::before{
-		content: '';
-		display: none;
-	}
-	.study__title::after{
-		content: '';
-		display: none;
-	}
-}
 
 .about{
 	padding-bottom: 50px;
@@ -516,7 +503,7 @@ body{
 .el_title__title::after{
 	content: '';
 	background: #FFFFFF;
-	width: 70%;
+	width: 60%;
 	height: 3px;
 	position: absolute;
 	top: 85px;
@@ -570,15 +557,13 @@ body{
 	padding: 0 5px;
 }
 
-
-
 .opinion{
 	padding: 50px 0px;
 }
 .opinion__title::before{
 	content: '';
 	background: #FFFFFF;
-	width: 20%;
+	width: 16%;
 	height: 3px;
 	position: absolute;
 	top: 30px;
@@ -590,23 +575,65 @@ body{
 	font-size: 50px;
 	line-height: 59px;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: #DCAD55;
 }
 .opinion__title::after{
 	content: '';
 	background: #FFFFFF;
-	width: 20%;
+	width: 16%;
 	height: 3px;
 	position: absolute;
 	top: 30px;
 	right: 0;
 }
+.opinion__slider .slide{
+	padding: 0 20px;
+	box-sizing:content-box !important;
+}
+.opinion .bx-wrapper{
+	background: transparent!important;
+	border: 3px solid transparent!important;
+	box-shadow: none!important;
+	margin-bottom: 20px;
+	margin: 50px auto 0;
+}
+.slide_block{
+	max-width: 326px;
+	min-height: 326px;
+    max-height: fit-content;
+	border: 3px solid #DCAD55;
+	box-shadow: 0px 0px 20px rgba(220, 173, 85, 1);
+}
+.block__title{
+	background: #DCAD55;
+	font-family: "ArticaPro-Bold";
+	font-size: 22px;
+	line-height: 26px;
+	color: #101010;
+	padding: 12px 0px;
+}
+.block__text{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #FFFFFF;
+	height: 200px;
+	padding: 0 12px;
+}
+.opinion .bx-wrapper .bx-controls-direction a{
+    top: 110%;
+}
 
+.opinion .bx-wrapper .bx-prev{
+    left: 45.5%;
+}
 
-
-
+.opinion .bx-wrapper .bx-next{
+    right: 45.5%;
+}
 .opinion__button{
-	padding: 50px 0;
+	padding: 80px 0 50px 0;
 }
 .opinion__button a:hover{
 	text-decoration: none;
@@ -619,6 +646,7 @@ body{
 	width: 360px;
 	height: 45px;
 	background: #DCAD55;
+	border: 3px solid #FFFFFF;
 	box-shadow: 0px 6px 22px rgba(255, 255, 255, 0.36);
 	padding-top: 12px;
 }
