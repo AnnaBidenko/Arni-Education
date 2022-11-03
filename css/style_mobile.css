@@ -26,7 +26,7 @@
 	}
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px){
 	.header__head .media_nav{
         display: block;
     }
@@ -88,7 +88,13 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
+	.study .study__title{
+    	text-align: center!important;
+    }
+    .study .study__text{
+    	text-align: center!important;
+    }
 	.stock .container{
 		padding: 0;
 	}
@@ -116,16 +122,12 @@
 	}
 }
 
-@media (max-width: 730px) {
-	.el_title .el_title__title::after{
-		width: 30%;
+@media (max-width: 638px){
+	.header__form .header__form__title{
+		text-align: right;
+		font-size: 40px;
+		line-height: 48px;
 	}
-	.buy_course__el .el_button a:nth-child(1) {
-	    margin-left: 70px;
-	}
-}
-
-@media (max-width: 638px) {
 	.course .course__title::before{
 		display: none;
 	}
@@ -137,6 +139,15 @@
 	}
 	.teacher .teacher__title::after{
 		display: none;
+	}
+	.el_title .el_title__title::after{
+		width: 30%;
+	}
+	.buy_course__el .el_button a:nth-child(1) {
+	    margin-left: 70px;
+	}
+	.opinion .opinion__title{
+		text-align: center;
 	}
 	.opinion .opinion__title::before{
 		display: none;
@@ -153,7 +164,7 @@
 	}
 }
 
-@media (max-width: 465px) {
+@media (max-width: 576px){
 	.el_title .el_title__title{
 		font-size: 38px;
 	}
@@ -162,7 +173,7 @@
 }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 425px){
 	.header__head .media_nav{
         display: none;
     }
@@ -196,6 +207,22 @@
 	.inner_button svg{
 		margin-right: 24px;
 	}
+	.header__form .header__form__title{
+		text-align: center;
+		padding: 30px 0 15px 0;
+	}
+	.header__form .header__form__inner{
+		margin-left: 16px;
+	}
+	.about .about__title h2{
+		margin-left: 70px;
+	}
+	.about__title .about__title__line{
+		display: none;
+	}
+	.about .about__text{
+		text-align: center;
+	}
 	.study__table__column .col_element{
 		border: none;
 	}
@@ -203,13 +230,17 @@
 	.study__table__column.center{
 		margin-right: 0;
 	}
+	.course .course__text{
+		text-align: center;
+	}
 	.stock_bg .stock_bg__photo{
 		display: none;
 	}
 	.stock_bg .stock_bg__text{
-		max-width: 300px;
+		max-width: 360px;
 		font-size: 12px;
 		line-height: 28px;
+		text-align: center!important;
 	}
 	.stock__content .stock_bg{
 		max-width: 340px;
